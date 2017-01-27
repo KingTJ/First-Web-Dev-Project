@@ -1,0 +1,206 @@
+
+ body {
+         background-color: #faf2e4;
+         font-family: sans-serif;
+         transition-property: background-color; 
+         transition-duration: 0.6s; 
+      }
+
+body:hover {    
+              background-color: red; 
+           }
+
+img {
+      transform: rotate(-10deg); 
+    }
+
+/* This is for the special image on home page */
+#specialb {
+            background-image: url(%20pipes.jpeg);
+            color: white; 
+            background-attachment: scroll; 
+          }
+
+/* This is on Menu page */
+#specialbb {
+             background-image: url(cuttingboard.jpg); 
+             color: black; 
+             background-attachment: fixed; 
+           }
+
+/* This is for testimonial Page */
+#testbody {
+             background-image: url(people-coffee-notes-tea.jpg);
+             color: white; 
+             background-attachment: fixed;   
+          }
+
+/* This is for home page */
+.speciala {
+            color: white;
+            text-decoration: none;
+          }
+
+/* This is for home page */
+.dfoorm {
+          color: white;
+          text-decoration: underline;  
+        }
+
+/* This is for home page */
+#homebody {
+            margin-top: 110px;
+          }
+
+/* This for home page */
+.homefooter {
+              margin-top: 163px;
+            }
+
+/* This is for Menu Page */
+#menufooter {
+              margin-top: 163px; 
+              color: white; 
+            }
+
+ h1 {
+        text-align: center;
+        font-family: sans-serif;
+        font-weight: normal;
+        text-transform: uppercase;
+        margin-top: 30px;
+        color: #ffc300;
+        margin-left: 0px;
+    }
+
+h2  {
+      color: #ffc300;
+      font-size: 1.5em;
+      text-align: center; 
+    }
+           
+ ul {
+      list-style-type: none;
+    }
+
+/* This is on home page */ 
+#centered {
+             text-align: center;
+             list-style-position: inside;
+          }
+            
+ nav a {
+        text-decoration: none;
+        color: white;
+        padding-right: 220px;
+       }
+
+.centp {
+         text-align: center; 
+       }
+
+a {
+    color: black;
+    text-decoration: none; 
+  }
+
+@keyframes colors {
+                   from {background-color: white;}
+                   to {background-color: yellow;}          
+                 }
+.wstrip { 
+          width: 100%; 
+          height: 250px; 
+          background-color: white; 
+          font-size: 1.2em; 
+          color: burlywood; 
+          animation-name: colors; 
+          animation-duration: 10s; 
+          animation-name: colors; 
+          animation-duration: 10s; 
+        }
+
+/* This is on Menu Page */ 
+.custh {
+         font-size: 700%; 
+         font-style: italic; 
+         font-family: cursive; 
+         font-weight: lighter;         
+       }
+
+/* This on Testimonial Page */
+#custh2 {
+          font-size: 700%;
+          font-family: cursive;
+          font-weight: lighter; 
+          color: white; 
+        }
+
+/* This is on Testimonial Page */
+.testdiv {
+           width: 100%;
+           color: black; 
+           padding-top: 150px;
+         }
+
+.lefts {
+         float: left;
+         width: 50%;
+       }
+
+.rights {
+          float: right;
+          width: 50%; 
+        }
+      
+/* This is on the testimonial page */
+#footer {
+          margin-top: 320px;
+        }
+
+/* This is on Testimonial Page */ 
+#footerc {
+          margin-top: 300px;
+        }
+
+/* This on Careers Page */
+ table {
+          border-spacing: 10px;
+          border: 1px solid #FFFFFF;
+       }  
+
+/* This is on Careers Page */
+input {
+        width: 50%; 
+        border: 2px solid blue;
+        border-radius: 4px; 
+      }
+
+/* Mouse over link */
+.foorm:hover {
+               background-color: blue; 
+             }
+
+/* Click on link */
+.foorm:active {
+                 background-color: orangered;
+               }
+
+/* This is for Contact Page */
+#contactbod {
+              background-image: url(pexels-photo.jpg);
+              color: white;    
+            }
+
+#cont {
+        margin-top: 300px; 
+      }
+
+#conthead{
+           color: white; 
+         }
+
+#centp1 {
+         text-align: center; 
+         color: white; 
+       }
